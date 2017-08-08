@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		66DA61A11F0541FD00582A97 /* Poker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66DA619F1F0541FD00582A97 /* Poker.cpp */; };
-		66F6FAD91EFB2167006813BE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66F6FAD81EFB2167006813BE /* main.cpp */; };
-		66F6FAE11EFB3019006813BE /* tester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66F6FADF1EFB3019006813BE /* tester.cpp */; };
+		66CF2D191F18FE9000CC733C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66CF2D181F18FE9000CC733C /* main.cpp */; };
+		66CF2D211F18FEE100CC733C /* PokerClasses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66CF2D1F1F18FEE100CC733C /* PokerClasses.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		66F6FAD31EFB2167006813BE /* CopyFiles */ = {
+		66CF2D131F18FE9000CC733C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,16 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		66DA619F1F0541FD00582A97 /* Poker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Poker.cpp; sourceTree = "<group>"; };
-		66DA61A01F0541FD00582A97 /* Poker.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Poker.hpp; sourceTree = "<group>"; };
-		66F6FAD51EFB2167006813BE /* LearningCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LearningCPP; sourceTree = BUILT_PRODUCTS_DIR; };
-		66F6FAD81EFB2167006813BE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		66F6FADF1EFB3019006813BE /* tester.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tester.cpp; sourceTree = "<group>"; };
-		66F6FAE01EFB3019006813BE /* tester.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = tester.hpp; sourceTree = "<group>"; };
+		66CF2D151F18FE9000CC733C /* HoldemGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HoldemGame; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CF2D181F18FE9000CC733C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		66CF2D1F1F18FEE100CC733C /* PokerClasses.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PokerClasses.cpp; sourceTree = "<group>"; };
+		66CF2D201F18FEE100CC733C /* PokerClasses.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PokerClasses.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		66F6FAD21EFB2167006813BE /* Frameworks */ = {
+		66CF2D121F18FE9000CC733C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,100 +41,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		66F6FACC1EFB2167006813BE = {
+		66CF2D0C1F18FE9000CC733C = {
 			isa = PBXGroup;
 			children = (
-				66F6FAD71EFB2167006813BE /* LearningCPP */,
-				66F6FAD61EFB2167006813BE /* Products */,
+				66CF2D171F18FE9000CC733C /* HoldemGame */,
+				66CF2D161F18FE9000CC733C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		66F6FAD61EFB2167006813BE /* Products */ = {
+		66CF2D161F18FE9000CC733C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				66F6FAD51EFB2167006813BE /* LearningCPP */,
+				66CF2D151F18FE9000CC733C /* HoldemGame */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		66F6FAD71EFB2167006813BE /* LearningCPP */ = {
+		66CF2D171F18FE9000CC733C /* HoldemGame */ = {
 			isa = PBXGroup;
 			children = (
-				66F6FAD81EFB2167006813BE /* main.cpp */,
-				66F6FADF1EFB3019006813BE /* tester.cpp */,
-				66F6FAE01EFB3019006813BE /* tester.hpp */,
-				66DA619F1F0541FD00582A97 /* Poker.cpp */,
-				66DA61A01F0541FD00582A97 /* Poker.hpp */,
+				66CF2D181F18FE9000CC733C /* main.cpp */,
+				66CF2D1F1F18FEE100CC733C /* PokerClasses.cpp */,
+				66CF2D201F18FEE100CC733C /* PokerClasses.hpp */,
 			);
-			path = LearningCPP;
+			path = HoldemGame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		66F6FAD41EFB2167006813BE /* LearningCPP */ = {
+		66CF2D141F18FE9000CC733C /* HoldemGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 66F6FADC1EFB2167006813BE /* Build configuration list for PBXNativeTarget "LearningCPP" */;
+			buildConfigurationList = 66CF2D1C1F18FE9000CC733C /* Build configuration list for PBXNativeTarget "HoldemGame" */;
 			buildPhases = (
-				66F6FAD11EFB2167006813BE /* Sources */,
-				66F6FAD21EFB2167006813BE /* Frameworks */,
-				66F6FAD31EFB2167006813BE /* CopyFiles */,
+				66CF2D111F18FE9000CC733C /* Sources */,
+				66CF2D121F18FE9000CC733C /* Frameworks */,
+				66CF2D131F18FE9000CC733C /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LearningCPP;
-			productName = LearningCPP;
-			productReference = 66F6FAD51EFB2167006813BE /* LearningCPP */;
+			name = HoldemGame;
+			productName = HoldemGame;
+			productReference = 66CF2D151F18FE9000CC733C /* HoldemGame */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		66F6FACD1EFB2167006813BE /* Project object */ = {
+		66CF2D0D1F18FE9000CC733C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Adam;
 				TargetAttributes = {
-					66F6FAD41EFB2167006813BE = {
+					66CF2D141F18FE9000CC733C = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 66F6FAD01EFB2167006813BE /* Build configuration list for PBXProject "LearningCPP" */;
+			buildConfigurationList = 66CF2D101F18FE9000CC733C /* Build configuration list for PBXProject "HoldemGame" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 66F6FACC1EFB2167006813BE;
-			productRefGroup = 66F6FAD61EFB2167006813BE /* Products */;
+			mainGroup = 66CF2D0C1F18FE9000CC733C;
+			productRefGroup = 66CF2D161F18FE9000CC733C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				66F6FAD41EFB2167006813BE /* LearningCPP */,
+				66CF2D141F18FE9000CC733C /* HoldemGame */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		66F6FAD11EFB2167006813BE /* Sources */ = {
+		66CF2D111F18FE9000CC733C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66DA61A11F0541FD00582A97 /* Poker.cpp in Sources */,
-				66F6FAE11EFB3019006813BE /* tester.cpp in Sources */,
-				66F6FAD91EFB2167006813BE /* main.cpp in Sources */,
+				66CF2D211F18FEE100CC733C /* PokerClasses.cpp in Sources */,
+				66CF2D191F18FE9000CC733C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		66F6FADA1EFB2167006813BE /* Debug */ = {
+		66CF2D1A1F18FE9000CC733C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -181,7 +175,7 @@
 			};
 			name = Debug;
 		};
-		66F6FADB1EFB2167006813BE /* Release */ = {
+		66CF2D1B1F18FE9000CC733C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -218,14 +212,14 @@
 			};
 			name = Release;
 		};
-		66F6FADD1EFB2167006813BE /* Debug */ = {
+		66CF2D1D1F18FE9000CC733C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		66F6FADE1EFB2167006813BE /* Release */ = {
+		66CF2D1E1F18FE9000CC733C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -235,25 +229,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		66F6FAD01EFB2167006813BE /* Build configuration list for PBXProject "LearningCPP" */ = {
+		66CF2D101F18FE9000CC733C /* Build configuration list for PBXProject "HoldemGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				66F6FADA1EFB2167006813BE /* Debug */,
-				66F6FADB1EFB2167006813BE /* Release */,
+				66CF2D1A1F18FE9000CC733C /* Debug */,
+				66CF2D1B1F18FE9000CC733C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		66F6FADC1EFB2167006813BE /* Build configuration list for PBXNativeTarget "LearningCPP" */ = {
+		66CF2D1C1F18FE9000CC733C /* Build configuration list for PBXNativeTarget "HoldemGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				66F6FADD1EFB2167006813BE /* Debug */,
-				66F6FADE1EFB2167006813BE /* Release */,
+				66CF2D1D1F18FE9000CC733C /* Debug */,
+				66CF2D1E1F18FE9000CC733C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 66F6FACD1EFB2167006813BE /* Project object */;
+	rootObject = 66CF2D0D1F18FE9000CC733C /* Project object */;
 }
